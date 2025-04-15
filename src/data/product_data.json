@@ -1,0 +1,238 @@
+[
+    {
+      "name": "Evermine50",
+      "category": "Cardiovascular",
+      "description": "Evermine50 is a next-generation drug-eluting coronary stent featuring an ultra-low strut thickness of 50 μm to promote rapid vascular healing. It has a hybrid cell design (open-cell middle for side-branch access and closed-cell ends for optimal scaffolding) to ensure flexibility and strength (radial strength ~1.1 bar). Evermine50 is coated with the drug everolimus in a biodegradable polymer, providing proven long-term safety and efficacy in treating coronary artery disease. Clinical studies (500+ patients) have shown 0% stent thrombosis at 6 and 12 months and low major adverse cardiac events (<2% at 1 year) for this stent."
+    },
+    {
+      "name": "BioMime",
+      "category": "Cardiovascular",
+      "description": "BioMime™ is a sirolimus-eluting coronary stent system with an ultra-thin 65 μm cobalt–chromium strut. It employs a novel hybrid design with closed cells at the ends and open cells in the middle, allowing morphology-mediated expansion for excellent conformability and reduced edge dissections. The stent uses a biodegradable polymer (about 2 μm thick) for drug release. Non-linear S-link connectors and Y connectors in the design give the stent high flexibility and side-branch access while maintaining optimal radial strength. BioMime’s low balloon overhang (<0.5 mm) minimizes injury to healthy vessel segments. It has been implanted in over 500,000 patients across 94+ countries, with clinical trials (meriT series) demonstrating safety and efficacy up to 5-year follow-up (non-inferiority to leading DES proven in studies)."
+    },
+    {
+      "name": "BioMime Lineage",
+      "category": "Cardiovascular",
+      "description": "BioMime Lineage™ is a sirolimus-eluting coronary stent system built on the BioMime platform but delivered via the specialized Lineage monolithic delivery system. It retains the ultra-thin 65 μm strut thickness and hybrid cell stent design of BioMime, but adds a reinforced distal shaft for high-pressure deployment without lumen shrinkage and an elongated distal tip (7.5 mm) for a lower entry profile to cross complex lesions. The distal shaft has a hydrophilic coating for easy navigation, and a robust hypotube ensures excellent force transmission to prevent kinking. These enhancements give BioMime Lineage exceptional pushability and trackability for treating challenging coronary anatomies, while offering the proven benefits of the BioMime stent (fast healing, optimal strength, side-branch access). BioMime Lineage is part of Meril’s DES family available in 90+ countries worldwide."
+    },
+    {
+      "name": "BioMime Branch",
+      "category": "Cardiovascular",
+      "description": "BioMime Branch™ is a sirolimus-eluting coronary stent system specifically designed for the treatment of bifurcation lesions in coronary arteries. It has an ultra-thin (65 μm) strut design and employs a proprietary “Flexi Connector” technology to maintain continuous scaffolding between the main vessel and side branch. The specialized design allows ease of implantation in bifurcations, ensuring proper coverage of the branch ostium while providing flexibility and strength. BioMime Branch’s advanced geometry facilitates side-branch access and secure lesion coverage, making it an intuitive solution for complex bifurcation stenting."
+    },
+    {
+      "name": "BioMime Morph",
+      "category": "Cardiovascular",
+      "description": "BioMime Morph™ is a sirolimus-eluting coronary stent system featuring an ultra-thin 65 μm strut that is uniquely tapered for treating long or varying-diameter lesions. This novel stent is available in extra-long lengths (40, 50, 60 mm) and has a proximal-to-distal taper (e.g., expanding from 2.50 mm to 2.00 mm) to accommodate vessels that change diameter. The Morph stent uses the same biodegradable polymer and hybrid cell design as Meril’s other DES, providing flexibility and strength across its length. By offering a long, tapered stent, BioMime Morph allows interventional cardiologists to treat extended diffuse disease or multiple lesions with a single stent, maintaining good apposition at both proximal and distal segments and improving procedural efficiency."
+    },
+    {
+      "name": "Metafor",
+      "category": "Cardiovascular",
+      "description": "Metafor™ is a sirolimus-eluting coronary stent system (SES) with an ultra-thin 65 μm cobalt–chromium strut platform. It is Meril’s next-generation DES built on the NexGen bare-metal stent design, incorporating an intelligent mix of open and closed cells (hybrid cell architecture) for optimal flexibility and conformability. Metafor’s strut width variability provides an excellent balance between radial strength and vessel scaffolding. It uses a stable, elastic biodegradable polymer (~2 μm) for drug delivery and is essentially based on the clinically proven BioMime stent design. In clinical use, Metafor has demonstrated zero stent thrombosis and very low major adverse cardiac events over long-term follow-up. It offers fast endothelial healing and a novel hybrid cell design that ensures side-branch access and minimal edge dissections during coronary angioplasty."
+    },
+    {
+      "name": "Proficient",
+      "category": "Cardiovascular",
+      "description": "Proficient™ is a sirolimus-eluting coronary stent system that features an ultra-thin 65 μm cobalt–chromium strut and Meril’s innovative hybrid cell design. The stent’s open-cell middle and closed-cell ends provide optimal side-branch access and uniform scaffolding. Proficient uses a biodegradable polymer coating to deliver sirolimus, promoting rapid healing. Its strut width variability and hybrid architecture ensure both high radial strength and excellent flexibility. In essence, Proficient is designed to combine the key benefits of Meril’s BioMime family – thin struts for reduced vessel injury, a proven drug/polymer for long-term efficacy, and a morphology-mediated expansion pattern – into a workhorse DES suitable for a wide range of coronary lesions."
+    },
+    {
+      "name": "NexGen",
+      "category": "Cardiovascular",
+      "description": "NexGen™ is an ultra-thin (65 μm) cobalt–chromium bare-metal coronary stent that serves as the foundational platform for Meril’s drug-eluting stents. It features a novel hybrid cell design: closed cells at the ends and open cells in the middle, which allows morphology-mediated expansion for optimal conformability and minimizes edge dissections. NexGen’s non-linear S-link and Y-connector architecture gives it high flexibility and excellent side-branch access, while strut width variability provides robust radial strength. This advanced bare-metal stent has been used as the scaffold in Meril’s BioMime DES family, whose safety and efficacy have been validated in large clinical trials (meriT trials with 1,700+ patients up to 5 years). In summary, NexGen offers the latest generation stent design for coronary angioplasty, ensuring flexibility, strength, and compatibility with drug coatings."
+    },
+    {
+      "name": "Floret ASD Occluder",
+      "category": "Cardiovascular",
+      "description": "The Floret ASD Occluder is a percutaneous transcatheter device for closure of atrial septal defects (ASD) in the heart. It consists of a self-expanding nitinol wire mesh shaped into two discs with a central waist, and three polyester fabric inserts that help seal the defect and promote tissue growth over the device. The occluder is deployed across the ASD (typically secundum-type defects or fenestrations post-Fontan) to close the hole between the atria. Floret ASD’s design offers a low profile and stable positioning, leveraging nitinol’s shape memory to ensure the device retains its intended shape after deployment. This occluder provides a minimally invasive solution to ASD, obviating the need for open-heart surgery in suitable patients."
+    },
+    {
+      "name": "Floret VSD Occluders",
+      "category": "Cardiovascular",
+      "description": "Floret™ VSD Occluders are percutaneous transcatheter devices designed for closure of ventricular septal defects. They are available in two configurations – a perimembranous VSD occluder and a muscular VSD occluder – to accommodate different types and thicknesses of the ventricular septum. Each Floret VSD occluder consists of two concentric nitinol wire mesh discs connected by a waist, with polyester fabric patches to aid occlusion and tissue in-growth. The occluder’s wide waist and dual-disc design allow it to securely seal defects even in thicker septal tissue. The muscular VSD occluder variant has a thicker profile to fit larger or muscular defects. Floret VSD occluders provide a catheter-based solution to close VSDs and are deployed via catheter, avoiding the need for open surgical repair in many cases."
+    },
+    {
+      "name": "Floret PDA Occluder",
+      "category": "Cardiovascular",
+      "description": "The Floret PDA Occluder is a percutaneous transcatheter device specifically designed to close a patent ductus arteriosus (PDA). It is a self-expanding, braided nitinol mesh shaped into a small cylindrical plug with a retention skirt. Three integrated polyester fabric inserts within the mesh help seal the ductus and encourage tissue overgrowth for permanent closure. The Floret PDA occluder’s design is well-suited for use even in infants and very young patients, offering an effective minimally invasive treatment for PDA. Once positioned in the ductus arteriosus, the occluder blocks abnormal blood flow between the aorta and pulmonary artery. Its biocompatible nitinol structure and fabric aid ensure a secure closure as the child’s tissue grows into the device."
+    },
+    {
+      "name": "Myval Transcatheter Heart Valve (THV)",
+      "category": "Cardiovascular",
+      "description": "Myval is Meril’s transcatheter aortic valve replacement (TAVR) system – a balloon-expandable bioprosthetic heart valve delivered via catheter for treating severe aortic valve stenosis. It consists of a bovine pericardial tissue valve mounted on a metallic stent frame (the Myval THV) that can be implanted without open-heart surgery. Myval is designed to be delivered using the Navigator balloon catheter system. The valve comes in multiple sizes (including the Myval Octacor and Myval Octapro iterations) to fit different anatomies. By enabling minimally invasive aortic valve replacement, Myval offers a treatment option for patients at high risk for surgical valve replacement. *(Additional regional availability note: Myval is approved in many countries but as of the latest update is not yet available in certain markets like the USA and some EU countries, pending regulatory approval.)*"
+    },
+    {
+      "name": "Ancora 360 Heart Stabilizer",
+      "category": "Cardiovascular",
+      "description": "Ancora 360™ is a heart tissue vacuum stabilizer used during off-pump coronary artery bypass surgery to steady the heart while the surgeon performs anastomoses. It features clear, malleable suction pods and a highly flexible arm with a reduced-profile head, allowing versatile positioning on the beating heart. Ancora 360 provides excellent stability and a low obstruction profile, improving visualization of the target vessels. Surgeons can adjust pod spread and arm angle easily, and the device’s design enables multiple angles of approach with secure attachment. In essence, the Ancora 360 stabilizer helps create a nearly motionless local field on the heart, facilitating precise suturing during beating-heart (off-pump) bypass procedures."
+    },
+    {
+      "name": "Perite (Heart Valve Accessory)",
+      "category": "Cardiovascular",
+      "description": "Perite is a cardiac surgery accessory device associated with heart valve procedures. *Details for Perite are limited on the public site.* It is described as part of Meril’s heart valve product portfolio and likely serves as a tool or accessory to aid in cardiac valve implantation or related surgical techniques. (This could encompass items such as annuloplasty rings, sizers, or other valve surgical instruments that complement Meril’s heart valve products.)"
+    },
+    {
+      "name": "Dafodil Pericardial Bioprosthesis",
+      "category": "Cardiovascular",
+      "description": "The Dafodil Pericardial Bioprosthesis is a surgically implanted tissue heart valve made from bovine pericardium, engineered for durability and excellent hemodynamic performance. It is a triple-composite valve design that combines advanced engineering with high-quality pericardial tissue and an Elgiloy alloy stent frame. Dafodil valves undergo unique tissue fixation and precise tissue thickness matching, ensuring uniform, well-matched leaflets. The valve is designed for both aortic and mitral positions, with position-specific modifications to meet the distinct requirements of each site. It also features a novel delivery system to facilitate implantation in the mitral position. Overall, the Dafodil bioprosthetic valve offers ease of implantability (low profile, visible suture markers), excellent hemodynamics (large effective orifice area, low gradients), and long-term durability with proprietary anti-calcification treatments on the tissue."
+    },
+    {
+      "name": "Dafodil Neo Pericardial Valve",
+      "category": "Cardiovascular",
+      "description": "Dafodil Neo is an advanced version of Meril’s pericardial bioprosthetic heart valve, incorporating enhancements for minimally invasive surgery and improved patient outcomes. Like the original, it is a bovine pericardial tissue valve on an Elgiloy alloy frame, but Dafodil Neo features a reduced profile and an extended holder handle to simplify implantation, including via smaller incisions. It has a slightly reduced sewing ring footprint to better utilize the patient’s annulus, resulting in improved hemodynamics (larger effective orifice for a given annulus size). Notably, Dafodil Neo offers a unique 17 mm size option for patients with an unusually small aortic annulus. It retains the triple composite design with laser-cut leaflets, advanced tissue fixation and anti-calcification technology, and an “Active Flex” delivery system (which reduces external stent post diameter) to ease placement in the mitral position. These innovations make Dafodil Neo easier to implant and suitable for a broader range of patients while maintaining durability and performance."
+    },
+    {
+      "name": "Flomero Pericardial Bioprosthesis",
+      "category": "Cardiovascular",
+      "description": "Flomero is a bovine pericardial bioprosthetic heart valve that features a unique triad-frame design and internally mounted leaflets. It is a triple-composite valve: its frame is made up of three integrated components – a polymer support ring, PET (polyethylene terephthalate) film commissural posts, and an Elgiloy alloy wireform – all covered with polyester fabric. This compliant frame design, combined with precision laser-cut leaflets (three independent pericardial leaflets) with advanced anti-calcification treatment, gives Flomero excellent durability and tissue stability. The valve provides optimal effective orifice area (thanks to its tri-leaflet composite design) and secure leaflet coaptation to minimize regurgitation. Flomero is also designed for ease of implantation: it incorporates an “Active Flex” technology with black sutures in the mitral valve version to reduce commissure profile during insertion, and a carefully engineered sewing ring with orientation markers for proper seating in the annulus. In summary, Flomero expands Meril’s tissue valve portfolio with a biomechanically advanced design aimed at long-term durability, superior hemodynamics, and surgeon-friendly implantation."
+    },
+    {
+      "name": "Miltonia Mechanical Heart Valve",
+      "category": "Cardiovascular",
+      "description": "Miltonia is a bi-leaflet mechanical heart valve prosthesis made from silicon-alloyed pyrolytic carbon on a graphite substrate. The leaflets and orifice ring are constructed of this polished pyrocarbon (with ~3–8% silicon and ~12% tungsten for radiopacity), which provides exceptional durability and thromboresistance. Miltonia’s design includes an open-pivot hinge mechanism that promotes a passive washing effect around the pivots, thereby reducing clot formation risk. The valve’s two leaflets open to a maximum angle of 85° relative to the ring, ensuring a large effective orifice for blood flow. The sewing cuff is a double-velour polyester fabric attached to the valve orifice via a titanium stiffening ring and secured with titanium lock rings and a lock wire. This attachment method allows the valve’s carbon orifice to be rotated for optimal positioning during surgery. Miltonia’s sewing cuff has multiple variants and includes radiopaque markers (three on the aortic version, four on the mitral version) to assist surgeons in uniform suture placement. Overall, the Miltonia mechanical valve offers excellent hemodynamic performance, proven material stability, ease of implantation, and a design focused on minimizing thrombogenicity."
+    },
+    {
+      "name": "Nautica Intracoronary Shunt",
+      "category": "Cardiovascular",
+      "description": "Nautica™ is an intracoronary shunt device used during coronary artery bypass grafting (CABG) on a beating heart. It is designed to provide a temporary, bloodless operative field at the anastomosis site by shunting blood downstream while the surgeon sutures the graft. The Nautica shunt is a one-piece radiopaque device consisting of a flexible silicone tube (shaft) with a bulb-shaped tip that is inserted into the coronary artery. During anastomosis, it diverts blood flow through the shunt, maintaining distal perfusion of the heart muscle and allowing the surgeon to see the surgical site without significant bleeding. The bulbous ends of the shunt secure it in the artery and prevent dislodgment, and the soft silicone construction enables easy, atraumatic insertion and removal. Nautica shunts improve visualization and safety in off-pump CABG by facilitating vessel occlusion and distal perfusion simultaneously. They are available in various sizes (indicated by a radiopaque tag on the device) to fit different coronary vessel diameters."
+    },
+    {
+      "name": "Myosist Intra-Aortic Balloon Catheter",
+      "category": "Cardiovascular",
+      "description": "Myosist is an 8Fr intra-aortic balloon (IAB) catheter kit used for intra-aortic balloon pump therapy, which provides circulatory support in patients with severe cardiac dysfunction. The Myosist balloon catheter is inserted into the descending aorta and works in tandem with an IAB pump. By inflating the balloon during diastole and deflating it just before systole, Myosist increases coronary blood flow (improving myocardial oxygen supply) and decreases afterload (reducing the left ventricle’s workload). Inflation in diastole boosts perfusion of the coronary arteries, and rapid deflation in systole lowers aortic pressure, aiding the ejection of blood from the heart. The Myosist kit features a highly durable and flexible polyurethane balloon tested for at least 1 million inflation-deflation cycles to ensure reliability. It has radiopaque markers and tip for precise positioning under fluoroscopy, an optimized 710 mm insertion length for correct placement, and an inner lumen (0.028 inch) to allow accurate arterial pressure monitoring through the catheter. Myosist is indicated for use in cardiogenic shock (e.g., after acute MI or cardiac surgery) and as perioperative support during high-risk cardiac procedures or in patients with poor left ventricular function."
+    },
+    {
+      "name": "Destiknee Total Knee System",
+      "category": "Orthopedics",
+      "description": "Destiknee™ is a total knee replacement system designed using advanced engineering principles to meet modern patients’ anatomical and lifestyle needs. Developed with insights from the Freedom® Knee system, Destiknee is proudly made in India and offers high-flexion capability for greater range of motion post-surgery. It is a cruciate-retaining knee implant that has been optimized via extensive clinical experience and design technologies to address varied knee anatomies. The system provides features that facilitate ease of implantation and patient fit, and it is both USFDA approved and CE certified. Destiknee’s design focuses on improved kinematics and long-term performance, making it a reliable choice for patients requiring knee arthroplasty to restore mobility and relieve pain from severe knee joint diseases."
+    },
+    {
+      "name": "Freedom Total Knee System",
+      "category": "Orthopedics",
+      "description": "Freedom is a flagship total knee replacement system known for its unique 7-radii femoral design, which provides a close approximation to natural knee kinematics. The Freedom knee offers high-flexion motion and is engineered to preserve bone and optimize fit (including options that accommodate Asian anatomies). It is a modular knee implant system with components that can be matched to patient size and needs, and it has been manufactured using cutting-edge robotic processes for high precision. The Freedom knee is designed to facilitate excellent range of motion and stability, giving patients a smooth and effective post-operative experience. Its success and innovative design have also informed the development of related systems like Destiknee."
+    },
+    {
+      "name": "Opulent Total Knee System",
+      "category": "Orthopedics",
+      "description": "Opulent is a comprehensive total knee replacement system by Meril that addresses primary knee arthroplasty needs with a focus on surgical efficiency and patient outcomes. It includes femoral, tibial, and patellar components that are anatomically contoured and available in a range of sizes. The Opulent knee system is designed for high stability and range of motion, allowing high flexion to accommodate patients’ active lifestyles. Its instrumentation and implants emphasize ease of use for surgeons and reliable fixation within the bone. The Opulent system provides durable performance for patients with knee joint degeneration or injury, helping restore mobility and knee function."
+    },
+    {
+      "name": "Misso Robotic System",
+      "category": "Orthopedics",
+      "description": "The Misso Robotic System is a fully active robotic-assisted surgery platform for orthopedic joint replacement. It enables surgeons to perform total knee arthroplasty with 3D pre-operative planning, virtual simulation, and highly accurate bone cutting. Misso’s robotic arm assists in executing the surgical plan to sub-millimeter precision, improving the alignment and fit of implants such as the Freedom or Destiknee knee components. This results in more consistent outcomes and potentially faster recovery for patients. As India’s first fully active orthopedic surgical robot, the Misso system represents a significant advancement in joint replacement technology, helping surgeons achieve optimal positioning and balance of knee implants."
+    },
+    {
+      "name": "Cuvis Joint Robotic System",
+      "category": "Orthopedics",
+      "description": "The Cuvis Joint system is a robotic platform for joint replacement surgeries (such as total knee replacement). It is designed to enhance surgical accuracy and outcomes by using pre-operative CT-based planning and an autonomous robotic arm to perform bone resections. The Cuvis system can optimize implant alignment and soft tissue balance by executing precise cuts according to the patient’s unique anatomy. Intra-operatively, the robot guides the surgeon and ensures that the bone preparation matches the plan, thereby improving the fit and function of the prosthesis. This robotic assistance leads to a more personalized knee replacement and may contribute to better long-term implant performance and patient satisfaction."
+    },
+    {
+      "name": "Latitud Hip Replacement System",
+      "category": "Orthopedics",
+      "description": "The Latitud Hip Replacement System is a modular total hip arthroplasty solution that includes femoral stems, heads, and acetabular cup components. It is designed to accommodate a range of patient anatomies and lifestyles. The Latitud system uses a proximally coated femoral stem (with hydroxyapatite coating in the Latitud HA variant) to encourage bone in-growth and secure fixation. It also offers a dual-mobility option (Libertas™ Dual Mobility head) to maximize range of motion and reduce dislocation risk. The Latitud Acetabular Cup and Monoblock stems are engineered for bone preservation and optimal load transfer. With a variety of head sizes (including options up to 36 mm) and advanced materials, the Latitud Hip Replacement System allows surgeons to tailor the implant to each patient’s needs, whether cemented or uncemented, providing reliable outcomes for hip joint restoration."
+    },
+    {
+      "name": "Latitud Cemented Femoral Stem",
+      "category": "Orthopedics",
+      "description": "The Latitud Cemented Femoral Stem is a component of the Latitud total hip system designed for use with bone cement. It features a polished surface and a geometry optimized for cement fixation within the femoral canal. This stem ensures even cement mantle thickness and secure seating, which contributes to long-term stability of the hip implant. It is typically used in patients with softer bone quality or in scenarios where the surgeon prefers a cemented technique. The Latitud cemented stem works in conjunction with Latitud femoral heads (usually cobalt-chrome or ceramic) and acetabular components to complete the hip replacement, offering a dependable option for cemented hip arthroplasty."
+    },
+    {
+      "name": "Latitud Monomod Stem",
+      "category": "Orthopedics",
+      "description": "The Latitud Monomod Stem is a monolithic (one-piece) femoral stem in the Latitud Hip Replacement portfolio. It is designed for uncemented fixation, with a proximal porous or hydroxyapatite coating to achieve biological fixation in the femur. The stem’s design balances metaphyseal fit and diaphyseal stability, aiming to accommodate a wide range of femoral anatomies. When paired with a matching Latitud femoral head, the Monomod stem helps restore proper hip biomechanics. Its one-piece construction simplifies the implant choice (as opposed to modular stems) and provides robust structural integrity. The Latitud Monomod Stem is often chosen for primary hip replacements where a press-fit, in-growth stem is appropriate."
+    },
+    {
+      "name": "Latitud Femoral Head",
+      "category": "Orthopedics",
+      "description": "Latitud Femoral Heads are the ball components of Meril’s hip replacement systems. They are available in various diameters (e.g., 28mm, 32mm, 36mm) and materials such as cobalt-chrome metal or ceramic. The heads are designed to articulate with Latitud acetabular cups or Liners, providing the smooth, low-friction surface for the hip joint. Latitud heads can be paired with both primary and dual-mobility cup constructs. The option of larger head sizes (like 36mm) can increase the range of motion and joint stability. These femoral heads are manufactured to have a precise fit on the Latitud femoral stems (via a taper junction) and a polished surface for minimal wear against the acetabular component."
+    },
+    {
+      "name": "Latitud Acetabular Cup System",
+      "category": "Orthopedics",
+      "description": "The Latitud Acetabular Cup System is part of Meril’s total hip replacement line, comprising acetabular shells and liners. The acetabular cup (shell) is typically made of titanium alloy with an outer porous coating or hydroxyapatite coating to encourage bone integration. It comes in multiple sizes and can accept different liner inserts (made of highly cross-linked polyethylene or ceramic) to articulate with the femoral head. The Latitud cup system is designed to achieve secure press-fit fixation in the patient’s pelvis and provide a stable articulation. With an optimized dome and rim geometry, it balances initial stability with long-term biological fixation. Surgeons can also choose neutral or hooded liners to adjust hip stability. Overall, the Latitud Acetabular Cup System provides a versatile and reliable solution for reconstructing the socket side of a hip joint."
+    },
+    {
+      "name": "Latitud Bipolar Cup",
+      "category": "Orthopedics",
+      "description": "The Latitud Bipolar Cup is a modular hemiarthroplasty component used primarily for hip fractures or other conditions where only the femoral head is replaced and the natural acetabulum is preserved. It consists of a two-part head: an inner metal head that attaches to the femoral stem and an outer larger shell (lined with polyethylene) that articulates within the native acetabulum. The bipolar design allows movement to occur at two interfaces – between the two parts of the head and between the outer head and acetabulum – which can reduce wear on the cartilage. The Latitud Bipolar Cup integrates with the Latitud femoral stems and is offered in various outer diameters to fit different patient anatomies. It provides a stable and low-friction solution for partial hip replacements, often used in older patients with femoral neck fractures where a total hip may not be necessary."
+    },
+    {
+      "name": "AURIC – Bionik Gold Plating System",
+      "category": "Orthopedics",
+      "description": "The AURIC™ Bionik Gold Plating System is an advanced trauma implant system designed to treat a wide range of bone fractures with enhanced biocompatibility and durability. It consists of trauma plates and screws that are made from high-grade titanium/titanium alloy and coated with a special Titanium Niobium Nitride (TiNbN) \"Bionik Gold\" coating. This gold-hued coating increases surface hardness, improves wear resistance, and reduces metal ion release, which together can minimize inflammatory reactions and improve long-term outcomes. The Auric system’s implants have a low profile and strong fixation features, providing excellent stability for bone healing. They are packaged sterile for immediate use, ensuring optimal safety against infection. Overall, the Auric Bionik Gold plating system offers surgeons a state-of-the-art option for internal fixation of fractures, combining the strength of titanium alloy with a coating that enhances its longevity and tissue compatibility."
+    },
+    {
+      "name": "Humerus Internal Fixation System",
+      "category": "Orthopedics",
+      "description": "Meril’s Humerus Internal Fixation System refers to a set of plates, screws, and rods specifically designed for surgical fixation of humeral fractures (both proximal humerus and shaft). These implants are anatomically contoured for the humerus bone and often feature multiple screw angulations to securely stabilize fracture fragments. The system likely includes proximal humerus locking plates (for fractures near the shoulder) with locking screw technology for improved purchase in osteoporotic bone, as well as straight or contoured plates for diaphyseal (shaft) fractures of the humerus. The goal of the Humerus Internal Fixation System is to provide rigid stabilization to allow early mobilization and proper healing of the arm while minimizing soft tissue disruption."
+    },
+    {
+      "name": "Clavicle Internal Fixation System",
+      "category": "Orthopedics",
+      "description": "The Clavicle Internal Fixation System is a set of anatomically pre-shaped plates and screws used to treat fractures of the clavicle (collarbone). Meril’s clavicle plates are contoured to match the S-shape of the clavicle and typically come in different designs for medial, mid-shaft, and lateral clavicle fractures. They often use locking screw technology to ensure stable fixation even in comminuted (multi-fragment) fractures. These low-profile plates minimize irritation to the surrounding soft tissues. By using the clavicle fixation system, surgeons can realign and secure broken collarbones, allowing them to heal in the correct position and restoring shoulder function more quickly compared to non-operative management."
+    },
+    {
+      "name": "Tibia Internal Fixation Plating System",
+      "category": "Orthopedics",
+      "description": "Meril’s Tibia Internal Fixation Plating System comprises orthopedic implants for stabilizing fractures of the tibia bone. It includes specialized plates such as proximal tibial locking plates (for tibial plateau fractures around the knee), distal tibial plates (for pilon or ankle-area fractures), and straight or anatomical plates for tibial shaft fractures. These plates are designed to fit the contours of the tibia and contain multiple holes for screws, including locking screws for enhanced fixation in osteoporotic bone or complex fractures. The system provides stable fixation for various fracture types—enabling early weight-bearing in some cases—and is made from biocompatible metals (like stainless steel or titanium). Using this plating system, surgeons can treat tibial fractures with precise alignment, promoting proper healing and function of the leg."
+    },
+    {
+      "name": "Hip Internal Fixation System",
+      "category": "Orthopedics",
+      "description": "The Hip Internal Fixation System refers to implants used for fracture fixation in the proximal femur (hip region). Meril’s system would include devices such as femoral neck screw sets, dynamic hip screws (DHS) and side plates, and possibly proximal femoral locking plates for fractures like intertrochanteric or subtrochanteric femur fractures. These implants secure the broken parts of the proximal femur. For example, a Dynamic Hip Screw consists of a large cancellous lag screw that goes across the femoral neck into the head, connected to a side plate on the femur; this allows controlled compression at the fracture site. The Hip Internal Fixation System’s components are designed to restore the integrity of the hip, allow early mobilization, and reduce the risk of complications in patients with hip fractures."
+    },
+    {
+      "name": "Femur Internal Fixation System",
+      "category": "Orthopedics",
+      "description": "Meril’s Femur Internal Fixation System includes implants for stabilizing femoral fractures (aside from hip joint fractures). This typically covers femoral shaft and distal femur fractures. The system might feature locking compression plates (LCP) specifically contoured for the femoral anatomy and intramedullary nails for the femur. Plates can have options for dynamic compression and locking screw fixation, ensuring rigid stability in complex fractures and osteoporotic bone. Distal femur plates might incorporate multiple locking screw holes to secure articular fragments in supracondylar fractures above the knee. These implants are made from strong, biocompatible materials and allow surgeons to fix fractures in the femur, maintain alignment, and enable the patient to begin rehabilitation sooner."
+    },
+    {
+      "name": "PFRN Nailing System",
+      "category": "Orthopedics",
+      "description": "The PFRN Nailing System (Proximal Femoral Nail) is an intramedullary nailing device used for fixation of proximal femur fractures, such as intertrochanteric or subtrochanteric hip fractures. It consists of a long, strong nail that is inserted into the femoral canal, with proximal screws (often one or two lag screws or blades) that secure the femoral head and neck, and distal locking screws to prevent rotation and control length. Meril’s PFRN system is designed to provide minimally invasive, stable fixation for hip fractures, allowing patients to bear weight relatively early. The nail’s proximal geometry matches the femur’s natural shape, and the use of a proximal femoral nail can reduce the risk of complications like femoral shortening or malunion compared to plating in certain fracture patterns."
+    },
+    {
+      "name": "Elastic Titanium Nail (ETN)",
+      "category": "Orthopedics",
+      "description": "The Elastic Titanium Nail is a flexible intramedullary nailing system, often used for pediatric long bone fractures (such as femur or tibia fractures in children) or forearm fractures. These nails (sometimes called Titanium Elastic Nails or TEN) are made of titanium alloy, which is both strong and elastic. They are inserted in pairs into the medullary canal of the bone across the fracture site via small entry points. The elasticity of the nails allows them to bend and provide a spring-like opposing force that maintains fracture alignment (three-point fixation within the canal). Meril’s Elastic Titanium Nail system comes in various diameters and lengths to accommodate different bone sizes. It provides stable fixation with minimal surgical trauma, and since the nails are often inserted through growth plate-sparing entry points, it is an excellent technique for managing pediatric fractures."
+    },
+    {
+      "name": "Cannulated Titanium Tibial Nail System",
+      "category": "Orthopedics",
+      "description": "Meril’s Cannulated Titanium Tibial Nail System is an intramedullary nail designed for fixation of tibial shaft fractures. Being cannulated, it has a hollow channel through its center, allowing it to be guided over a guidewire during insertion, which aids precise placement. This nail is made of titanium, giving it a combination of strength and elasticity to withstand weight-bearing forces while promoting bone healing. The system includes locking screws that can be placed through proximal and distal holes in the nail to secure the fracture and control rotation and length. The titanium tibial nail is available in various lengths and diameters to suit the patient’s anatomy. By using this system, surgeons can treat tibia fractures via a minimally invasive approach, achieving stable, aligned fixation that often permits early movement and weight-bearing."
+    },
+    {
+      "name": "KET Intramedullary Nails",
+      "category": "Orthopedics",
+      "description": "The KET range of intramedullary nails is Meril’s series of stainless steel (SS) intramedullary nails for long bone fracture fixation. This includes various designs such as KET SS Trochanteric Femoral Nail (for hip fractures), KET SS Cannulated Femur Nails, KET SS Shaft Femur Nail (SSFN), KET SS Shaft Tibia Nail (SSTN), and KET SS Humerus Nail System. These nails are typically made of medical-grade stainless steel. Each nail in the KET series is designed for a specific bone and fracture type: for example, the Trochanteric Femoral Nail is used for intertrochanteric hip fractures, whereas the SSFN and SSTN are used for mid-shaft femur and tibia fractures, respectively. The nails are cannulated (for guidewire insertion) and have holes for interlocking screws at each end to stabilize the bone fragments. The KET nails provide robust internal support for fractured bones, maintain alignment during healing, and enable patients to regain function more quickly by allowing early mobilization."
+    },
+    {
+      "name": "MYEL Posterior Cervical System",
+      "category": "Orthopedics",
+      "description": "The MYEL Posterior Cervical Fixation & Reconstruction System is a comprehensive implant set for stabilizing the cervical (neck) spine from a posterior approach. It includes screws, rods, and connectors intended for use in the cervical and upper thoracic vertebrae. Typically, this system would have lateral mass screws (or pedicle screws for cervical/thoracic junction), rods that connect the screws, and cross-link devices to enhance rigidity. Surgeons use the MYEL system to treat conditions such as cervical instability due to trauma, degenerative disc disease, or deformities. The system’s implants are made of high-strength alloys (like titanium) to provide secure fixation while minimizing imaging artifacts. By using the MYEL posterior cervical system, the surgeon can stabilize multiple levels of the cervical spine, promote fusion (often with bone graft), and help relieve spinal cord or nerve compression by maintaining proper alignment."
+    },
+    {
+      "name": "MERILOCK Anterior Cervical Plate System",
+      "category": "Orthopedics",
+      "description": "The MERILOCK Anterior Cervical Plate System is an implant system for stabilizing the cervical spine from the front (anterior side), typically after an anterior cervical discectomy and fusion (ACDF) procedure. It consists of low-profile plates that come in various lengths (covering one or multiple levels) and special locking screws that anchor into the cervical vertebrae above and below the fused disc space. The plate is contoured to the curvature of the cervical spine and has a mechanism (like locking caps or screws) to prevent screw back-out (Meril’s \"MERILOCK\" mechanism). This system is used to provide immediate stability to the cervical spine segment that has been fused, ensuring the bone graft or cage placed in the disc space remains secure and that the fusion heals correctly. The MERILOCK plate’s slim design and secure screw locking minimize irritation to surrounding tissues and maximize safety while the spine fusion solidifies."
+    },
+    {
+      "name": "KEDGE Cervical Cage System",
+      "category": "Orthopedics",
+      "description": "The KEDGE Cervical Impacted Cage System is a device used for anterior cervical interbody fusion. It includes cervical cages (spacers) that are typically made of PEEK or titanium and are placed in the disc space after removal of a damaged cervical disc. The KEDGE cage is designed to be impacted (inserted snugly) into the disc space and often has teeth or ridges to prevent migration. It maintains the disc height and lordosis while providing a channel for bone graft material to promote fusion between the adjacent vertebrae. The system likely comes in various heights and footprints to match patient anatomy. Using the KEDGE cervical cage in conjunction with anterior plating (like the MERILOCK plate) allows for a stable fusion of cervical vertebrae, relieving nerve compression and stabilizing the neck."
+    },
+    {
+      "name": "CLINCH 5.5 Thoraco-Lumbar Fixation System",
+      "category": "Orthopedics",
+      "description": "The CLINCH 5.5 Posterior Thoracic & Lumbar Spinal Fixation System is a pedicle screw and rod system for stabilizing the thoracic and lumbar spine. \"5.5\" refers to the rod diameter (5.5 mm), which is a standard size offering a good balance of strength and flexibility. The CLINCH system includes pedicle screws of various lengths and diameters, rods, and connectors. The screws are placed into the pedicles of the vertebrae, and rods are secured to the screws to hold the spine in the desired alignment. This system is used in the treatment of spine trauma, deformities (like scoliosis), or degenerative conditions requiring fusion. It provides rigid segmental fixation and maintains stability while the spine fuses. The CLINCH 5.5 system’s implants are made of high-strength materials (titanium or stainless steel) and are designed for easy insertion and secure locking (to \"clinch\" the rod and screws together) to ensure the construct remains stable over time."
+    },
+    {
+      "name": "LINT Vertebral Body Replacement Mesh",
+      "category": "Orthopedics",
+      "description": "The LINT Mesh System is a titanium mesh cage used for vertebral body replacement in the thoracic or lumbar spine. It is typically utilized after corpectomy (removal of a vertebral body due to fracture, tumor, or deformity) to span the gap between the remaining vertebrae and restore anterior spinal column support. The LINT mesh cage is cylindrical or rectangular and has a porous, mesh-like structure that allows packing of bone graft inside and permits fusion through the cage. Surgeons cut the mesh to an appropriate height or use available height options, then insert it in place of the removed vertebra. Over time, bone will grow through the mesh, fusing the adjacent vertebrae together. The LINT system provides a strong scaffold to maintain spinal alignment and bear axial loads while fusion occurs, and it is often used in combination with posterior instrumentation (screws and rods) for added stability."
+    },
+    {
+      "name": "KEDGE Lumbar Cage System",
+      "category": "Orthopedics",
+      "description": "The KEDGE Lumbar Impacted Cage System is used for interbody fusion in the lumbar spine. It includes lumbar interbody cages that are typically inserted via posterior or transforaminal approaches (PLIF/TLIF) after disc material is removed. The KEDGE lumbar cages are made of a biocompatible material such as PEEK or titanium and have teeth to grip the endplates and openings to pack bone graft. The \"impacted\" design means they are tapped into place between the lumbar vertebral bodies. These cages help restore disc height, maintain spinal alignment, and provide a stable spacer that promotes fusion between vertebrae. By using KEDGE lumbar cages, often in conjunction with pedicle screw fixation, surgeons can achieve solid fusion in cases of degenerative disc disease, spondylolisthesis, or spinal instability, relieving nerve compression and stabilizing the lower spine."
+    }
+  ]
+  
