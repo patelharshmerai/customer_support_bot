@@ -7,7 +7,7 @@ def test_call_scheduler():
     name = "Harsh"
     phone = "6261578341"
 
-    response = agent.run(name, phone)
+    response = agent.run(name, phone,{})
     print("[Bot]:", response)
 
 if __name__ == "__main__":

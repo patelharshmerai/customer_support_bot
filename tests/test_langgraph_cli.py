@@ -34,7 +34,9 @@ def run_chat():
 
         # Run LangGraph
         try:
-            state = workflow.invoke(state)
+            run_name = f"{name}_{phone}_session"
+            state = workflow.invoke(state, config={"run_name": run_name})
+
         except Exception as e:
             import traceback
             print("🚨 LangGraph Error:", e)

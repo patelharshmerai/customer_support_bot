@@ -1,27 +1,32 @@
-# scripts/test_account_creation.py
-
-import sys
-import os
-# sys.path.append(os.path.abspath("/home/harsh/Desktop/Personal_project/Customer_support/src/agent/acc"))
+# File: scripts/test_account_creation.py
 
 from src.agents.account_creation_agent import AccountCreationAgent
 
 def test_account_creation():
-    agent = AccountCreationAgent()
-
+    print("[TEST] Starting AccountCreationAgent test...")
+    
     # Simulated user inputs
     phone = "9876543210"
     name = "Harsh"
 
-    # Run the agent
-    response = agent.run(phone, name)
-    print("[Bot]:", response)
+    # Initial dummy state
+    state = {
+        "phone": phone,
+        "name": name,
+        "input": "",
+        "chat_history": [],
+        "output": {}
+    }
 
-    # Log a sample message to chat history
-    agent.log_message(phone, "Hey, I need help with orthopedic implants.")
-    agent.log_message(phone, "Sure! Can you describe your symptoms?", sender="bot")
+    # Instantiate and run the agent
+    agent = AccountCreationAgent()
+    new_state = agent.run(phone=phone, user_name=name, state=state)
 
-    print("[✓] Test complete. Check DB for stored user.")
+    # Print bot response
+    print("\n[Bot]:", new_state["output"]["response"])
+
+    # Optional: Log some messages to chat history
+    print("\n[✓] Test complete. Check MongoDB for stored user + chat history.")
 
 if __name__ == "__main__":
     test_account_creation()

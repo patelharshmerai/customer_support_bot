@@ -1,0 +1,12 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "main": "./src/workflows/langgraph_router.py:graph"
+    },
+    "env": "./.env",
+    "python_version": "3.13",
+    "dependencies": [
+      "."
+    ]
+  }
+  
