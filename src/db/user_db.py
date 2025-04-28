@@ -15,8 +15,6 @@ def create_user(name: str, phone: str) -> bool:
     user_doc = {
         "phone": phone,
         "name": name,
-        "purchase_history": [],
-        "chat_history": []  # we’ll store raw conversation logs here
     }
     try:
         user_collection.insert_one(user_doc)

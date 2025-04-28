@@ -1,3 +1,4 @@
+aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.16
 aiosignal==1.3.2
@@ -17,19 +18,24 @@ cycler==0.12.1
 dataclasses-json==0.6.7
 distro==1.9.0
 dnspython==2.7.0
+fastapi==0.115.12
+ffmpy==0.5.0
 filelock==3.18.0
 filetype==1.2.0
 fonttools==4.57.0
 forbiddenfruit==0.1.4
 frozenlist==1.5.0
 fsspec==2025.3.2
-google-ai-generativelanguage
-google-api-core
-google-api-python-client
-google-auth
-google-auth-httplib2
-googleapis-common-protos
+google-ai-generativelanguage==0.6.17
+google-api-core==2.24.2
+google-api-python-client==2.167.0
+google-auth==2.39.0
+google-auth-httplib2==0.2.0
+googleapis-common-protos==1.70.0
+gradio==5.26.0
+gradio_client==1.9.0
 greenlet==3.1.1
+groovy==0.1.2
 grpcio==1.72.0rc1
 grpcio-status==1.71.0
 h11==0.14.0
@@ -39,7 +45,6 @@ httpx==0.28.1
 httpx-sse==0.4.0
 huggingface-hub==0.30.2
 idna==3.10
-Jinja2==3.1.6
 jiter==0.9.0
 joblib==1.4.2
 jsonpatch==1.33
@@ -62,9 +67,11 @@ langgraph-prebuilt==0.1.8
 langgraph-runtime-inmem==0.0.4
 langgraph-sdk==0.1.61
 langsmith==0.3.31
+markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 marshmallow==3.26.1
 matplotlib==3.10.1
+mdurl==0.1.2
 mpmath==1.3.0
 multidict==6.4.3
 mypy-extensions==1.0.0
@@ -86,6 +93,7 @@ nvidia-nvtx-cu12==12.4.127
 openai==1.72.0
 orjson==3.10.16
 ormsgpack==1.9.1
+packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
 pinecone==6.0.2
@@ -99,20 +107,28 @@ pycparser==2.22
 pydantic==2.11.3
 pydantic-settings==2.8.1
 pydantic_core==2.33.1
+pydub==0.25.1
 PyJWT==2.10.1
 pymongo==4.12.0
 pyparsing==3.2.3
 python-dotenv==1.1.0
+python-multipart==0.0.20
 pytz==2025.2
 PyYAML==6.0.2
 regex==2024.11.6
 requests==2.32.3
 requests-toolbelt==1.0.0
+rich==14.0.0
 rsa==4.9
+ruff==0.11.6
+safehttpx==0.1.6
 safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.15.2
+semantic-version==2.10.0
 sentence-transformers==4.0.2
+setuptools==75.8.0
+shellingham==1.5.4
 sniffio==1.3.1
 SQLAlchemy==2.0.40
 sse-starlette==2.1.3
@@ -123,22 +139,21 @@ tenacity==9.1.2
 threadpoolctl==3.6.0
 tiktoken==0.9.0
 tokenizers==0.21.1
+tomlkit==0.13.2
 torch==2.6.0
-# tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615904614/work
 tqdm==4.67.1
-# traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
 transformers==4.51.3
 triton==3.2.0
+typer==0.15.2
 typing-inspect==0.9.0
 typing-inspection==0.4.0
-# typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1744302253/work
 tzdata==2025.2
 uritemplate==4.1.1
 urllib3==2.4.0
 uvicorn==0.34.0
 watchfiles==1.0.5
-# wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
+websockets==15.0.1
+wheel==0.45.1
 xxhash==3.5.0
 yarl==1.19.0
-# zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
 zstandard==0.23.0

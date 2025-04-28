@@ -1,84 +1,160 @@
-from langgraph.graph import StateGraph
-from langchain.memory import ConversationBufferMemory
+import sys
+import os
 
-from src.agents.call_scheduler_agent import CallSchedulerAgent
-from src.agents.company_info_rag_agent import CompanyInfoRAGAgent
-from src.agents.product_match_agent import ProductMatchAgent
+# Find the project root folder dynamically
+def find_project_root(root_folder_name="Customer_support"):
+    current_path = os.path.abspath(os.getcwd())
+    while True:
+        if os.path.basename(current_path) == root_folder_name:
+            return current_path
+        parent_path = os.path.dirname(current_path)
+        if parent_path == current_path:  # reached system root
+            raise Exception(f"Project root folder '{root_folder_name}' not found.")
+        current_path = parent_path
 
-# Optional: You can remove this if not using memory right now
-memory = ConversationBufferMemory(return_messages=True)
+# Add the root folder to sys.path
+project_root = find_project_root()
+sys.path.append(project_root)
 
-# State schema
-class State(dict):
-    name: str
-    phone: str
-    input: str
-    output: dict
 
-# ---------------- NODE FUNCTIONS ----------------
+# File: src/agents/account_creation_agent.py
 
-def greet_user(state: State) -> State:
-    print("[LangGraph] → greet_user triggered")
-    msg = (
-        f"Hi {state['name']}! How can I assist you today?\n"
-        f"You can ask about products, the company, or schedule a support call."
+import os
+import sys
+from datetime import datetime
+from typing import Annotated
+from typing_extensions import TypedDict
+
+from dotenv import load_dotenv
+from langchain_core.tools import tool
+from langchain_core.messages import ToolMessage
+from langchain_core.runnables import RunnableLambda, Runnable, RunnableConfig
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_community.tools.tavily_search import TavilySearchResults
+
+from langgraph.graph.message import AnyMessage, add_messages
+from langgraph.graph import END, StateGraph, START
+from langgraph.prebuilt import ToolNode, tools_condition
+from langgraph.checkpoint.memory import MemorySaver
+
+# ---- Tool Imports ----
+from src.agents.call_scheduler_agent import call_scheduler_tool
+from src.agents.account_creation_agent import account_creation_tool
+from src.agents.company_info_rag_agent import company_info_rag_tool
+from src.agents.product_match_agent import product_match_tool
+
+
+# ---- Load Environment Variables ----
+load_dotenv()
+
+# ---- Define LangGraph State ----
+class State(TypedDict):
+    messages: Annotated[list[AnyMessage], add_messages]
+
+# ---- Error Handler for Tools ----
+def handle_tool_error(state) -> dict:
+    error = state.get("error")
+    tool_calls = state["messages"][-1].tool_calls
+    return {
+        "messages": [
+            ToolMessage(
+                content=f"Error: {repr(error)}\n please fix your mistakes.",
+                tool_call_id=tc["id"],
+            )
+            for tc in tool_calls
+        ]
+    }
+
+# ---- Helper to Create Tool Node with Fallback ----
+def create_tool_node_with_fallback(tools: list) -> dict:
+    return ToolNode(tools).with_fallbacks(
+        [RunnableLambda(handle_tool_error)], exception_key="error"
     )
-    return {**state, "output": {"agent": "GreetUser", "response": msg}}
 
-def detect_intent(state: State) -> dict:
-    print("[LangGraph] → detect_intent triggered")
-    query = state["input"].lower()
-    if any(word in query for word in ["company", "vision", "about"]):
-        return {"__condition__": "CompanyInfoRAG"}
-    if any(word in query for word in ["stent", "product", "device"]):
-        return {"__condition__": "ProductMatchAgent"}
-    if any(word in query for word in ["call", "support", "schedule"]):
-        return {"__condition__": "CallScheduler"}
-    return {"__condition__": "CompanyInfoRAG"}
+# ---- Prompt ----
+primary_assistant_prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "You are a helpful customer support assistant for Meril Life Sciences. "
+            "Use the provided tools to search for company or product or to assist the user's queries. "
+            "When searching, be persistent. Expand your query bounds if the first search returns no results. "
+            "If a search comes up empty, expand your search before giving up. "
+            "Search Google using the TavilySearchResults tool if the info is not provided in the company knowledge base."
+            "dont fulfill any request that is not related to the company or product."
+            "be fun loving and flirty and use emojis in your response."
+            "\n\nCurrent user:\n<User>\n{user_info}\n</User>"
+            "\nCurrent time: {time}.",
+        ),
+        ("placeholder", "{messages}"),
+    ]
+).partial(time=datetime.now)
 
-def run_company_info_agent(state: State) -> State:
-    print("[LangGraph] → run_company_info_agent triggered")
-    agent = CompanyInfoRAGAgent()
-    result = agent.run(state["input"], state=state)
-    return {**state, "output": {"agent": "CompanyInfoRAGAgent", "response": result}}
+# ---- LLM ----
+llm = ChatGoogleGenerativeAI(model="models/gemini-2.0-flash-lite", temperature=0.3)
 
-def run_product_match_agent(state: State) -> State:
-    print("[LangGraph] → run_product_match_agent triggered")
-    agent = ProductMatchAgent()
-    result = agent.run(state["input"], state=state)
-    return {**state, "output": {"agent": "ProductMatchAgent", "response": result}}
+# Define a custom Runnable that logs tool calls
+class TavilySearchResultsWithLogging(TavilySearchResults):
+    def _run(self, state):
+        print("TavilySearchResults tool is being called.")
+        # Call the original functionality here
+        return super()._run(state)
 
-def run_call_scheduler(state: State) -> State:
-    print("[LangGraph] → run_call_scheduler triggered")
-    agent = CallSchedulerAgent()
-    result = agent.run(state["name"], state["phone"], state=state)
-    return {**state, "output": {"agent": "CallSchedulerAgent", "response": result}}
+# ---- Tools ----
+part_1_tools = [
+      # Log before calling TavilySearchResults
+    TavilySearchResults(max_results=1),
+    account_creation_tool,
+    call_scheduler_tool,
+    company_info_rag_tool,
+    product_match_tool,
+    # TavilySearchResultsWithLogging(max_results=1)
+]
 
-# ---------------- GRAPH DEFINITION ----------------
+# ---- Runnable Assistant Wrapper ----
+class Assistant:
+    def __init__(self, runnable: Runnable):
+        self.runnable = runnable
 
-graph = StateGraph(State)
+    def __call__(self, state: dict, config: RunnableConfig):
+        configuration = config.get("configurable", {})
+        name = configuration.get("name", "Guest")
+        phone = configuration.get("Phone no", "0000000000")
 
-graph.add_node("GreetUser", greet_user)
-graph.add_node("IntentDetect", detect_intent)
-graph.add_node("CompanyInfoRAG", run_company_info_agent)
-graph.add_node("ProductMatchAgent", run_product_match_agent)
-graph.add_node("CallScheduler", run_call_scheduler)
+        # Inject user info into state
+        state = {
+            **state,
+            "user_info": f"{name} ({phone})"
+        }
 
-graph.set_entry_point("GreetUser")
-graph.add_edge("GreetUser", "IntentDetect")
+        # Retry loop to ensure response
+        while True:
+            result = self.runnable.invoke(state)
+            if not result.tool_calls and (
+                not result.content or
+                (isinstance(result.content, list) and not result.content[0].get("text"))
+            ):
+                messages = state.get("messages", []) + [("user", "Respond with a real output.")]
+                state = {**state, "messages": messages}
+            else:
+                break
 
-graph.add_conditional_edges("IntentDetect", {
-    "CompanyInfoRAG": run_company_info_agent,
-    "ProductMatchAgent": run_product_match_agent,
-    "CallScheduler": run_call_scheduler
-})
+        return {"messages": result}
 
-graph.add_edge("CompanyInfoRAG", "IntentDetect")
-graph.add_edge("ProductMatchAgent", "IntentDetect")
-graph.add_edge("CallScheduler", "IntentDetect")
+# ---- Final Runnable ----
+part_1_assistant_runnable = primary_assistant_prompt | llm.bind_tools(part_1_tools)
 
-# Compile workflow
-workflow = graph.compile()
+# ---- LangGraph Build ----
+builder = StateGraph(State)
+builder.add_node("assistant", Assistant(part_1_assistant_runnable))
+builder.add_node("tools", create_tool_node_with_fallback(part_1_tools))
+builder.add_edge(START, "assistant")
+builder.add_conditional_edges("assistant", tools_condition)
+builder.add_edge("tools", "assistant")
 
-# Export for CLI or API
-__all__ = ["workflow"]
+# ---- Memory (in-memory for now) ----
+memory = MemorySaver()
+
+# ---- Compile Final Graph ----
+part_1_graph = builder.compile(checkpointer=memory)
